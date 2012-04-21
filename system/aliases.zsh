@@ -5,7 +5,7 @@
 #alias la="ls -A"
 
 # easy navigating
-alias ..="cd .."
+alias ../="cd .."
 alias ...="cd ../.."
 
 # history alias
