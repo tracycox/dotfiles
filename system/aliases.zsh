@@ -1,8 +1,8 @@
 # ls aliases
-alias ls="ls -F --color"
-alias l="ls -lh"
-alias ll="ls -lAh"
-alias la="ls -A"
+#alias ls="ls -F --color"
+#alias l="ls -lh"
+#alias ll="ls -lAh"
+#alias la="ls -A"
 
 # easy navigating
 alias ..="cd .."
