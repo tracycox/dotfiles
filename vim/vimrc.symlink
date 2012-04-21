@@ -53,3 +53,12 @@ set statusline=%F%m%r%h%w\
 set statusline+=\ [line\ %l\/%L]\ \-\ %c          
 
 set wildignore+=*.class
+
+filetype plugin on
+syntax on
+filetype on
+au BufRead,BufNewFile *.php set filetype=php
+au BufRead,BufNewFile *.html set filetype=html
+au BufRead,BufNewFile *.xml set filetypeype=xml
+au BufRead,BufNewFile *.sql set filetype=sql
+set mouse=a

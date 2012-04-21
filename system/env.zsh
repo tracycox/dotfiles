@@ -52,3 +52,6 @@ if $(grc &>/dev/null)
 then
   source `brew --prefix`/etc/grc.bashrc
 fi
+
+export BEES_HOME=~/software/cloudbees-sdk-0.7.4
+export JAVA_OPTS="-Xdebug -Xrunjdwp:transport=dt_socket,address=8001,server=y,suspend=n -XX:MaxPermSize=256M -Xmx512M -noverify"
