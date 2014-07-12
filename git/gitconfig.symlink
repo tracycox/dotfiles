@@ -1,17 +1,29 @@
 [user]
-    name = Phillip Verheyden
-    email = pverheyden@gmail.com
+	name = Phillip Verheyden
+	email = pverheyden@gmail.com
 [core]
     autocrlf = input
-    safecrlf = true
     editor = vim 
+	excludesfile = /Users/phillipverheyden/.gitignore_global
 [alias]
     co = checkout
     ci = commit
     st = status
     br = branch
-    hist = log --pretty=format:\"%h %ad [%an] | %s%d\" --graph --decorate --date=short
+    #hist = log --pretty=format:\"%h %ad [%an] | %s%d\" --graph --decorate --date=short
+    hist = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     type = cat-file -t
     dump = cat-file -p
 [push]
-    default=tracking
+    default = current
+[pull]
+    default = current
+[branch]
+    autosetuprebase = always
+[difftool "sourcetree"]
+	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --nosplash \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+	trustExitCode = true
+    keepBackup = false

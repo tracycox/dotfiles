@@ -21,8 +21,8 @@ compinit -u
 for config_file ($ZSH/**/completion.sh) source $config_file
 
 # autojump
-if [ -f `brew --prefix`/etc/autojump ]; then
-  . `brew --prefix`/etc/autojump
+if [ -f `brew --prefix`/etc/autojump.sh ]; then
+  . `brew --prefix`/etc/autojump.sh
 fi
 
 # GRC colorizes nifty unix tools all over the place
@@ -56,3 +56,7 @@ bindkey "\eOF" end-of-line
 # for freebsd console
 bindkey "\e[H" beginning-of-line
 bindkey "\e[F" end-of-line
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+eval "$(rbenv init -)"

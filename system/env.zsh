@@ -54,4 +54,17 @@ then
 fi
 
 export BEES_HOME=~/software/cloudbees-sdk-0.7.4
-export JAVA_OPTS="-Xdebug -Xrunjdwp:transport=dt_socket,address=8001,server=y,suspend=n -XX:MaxPermSize=256M -Xmx512M -noverify"
+export JAVA_OPTS="-XX:MaxPermSize=512m -Xmx2048m -noverify"
+export MAVEN_OPTS="-XX:MaxPermSize=512m -Xmx2048m -noverify"
+
+#Rackspace
+export RAX_CREDS_FILE=~/.pyrax.cfg
+
+# Correct operation of Ruby via https
+export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
+
+# Groovy
+export GROOVY_HOME=/usr/local/opt/groovy/libexec
+
+# Boot2Docker
+export DOCKER_HOST=tcp://$(boot2docker ip 2>/dev/null):2375
