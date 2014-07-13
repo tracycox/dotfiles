@@ -5,8 +5,10 @@ alias ll="ls -lAh"
 alias la="ls -A"
 
 # easy navigating
-alias ..="cd ../"
+alias ..="cd .."
 alias ...="cd ../.."
+
+alias plz="sudo"
 
 # history alias
 alias hall='history 1 -1'
