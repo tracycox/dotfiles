@@ -1,4 +1,4 @@
-# Andre's dotfiles
+# Phillip's dotfiles
 
 Initially copied from [Zach Holman](http://github.com/holman/dotfiles), but 
 substantially stripped down for my particular tastes. This used to also 
@@ -9,7 +9,7 @@ configuration by myself, so this no longer requires that.
 
 Same steps as Holman's:
 
-- `git clone git://github.com/apazzolini/dotfiles ~/.dotfiles`
+- `git clone git://github.com/phillipuniverse/dotfiles ~/.dotfiles`
 - `cd ~/.dotfiles`
 - `rake install`
 - `brew install grc` (optional, will add color to a few utilities)
