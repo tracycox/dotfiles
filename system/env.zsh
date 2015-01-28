@@ -13,8 +13,9 @@ export MULE_HOME=/usr/lib/mule-standalone-3.1.2
 export GRAILS_HOME=/usr/lib/grails-2.0.0
 export MAGICK_HOME=/usr/lib/ImageMagick
 export NODE_PATH="/usr/local/lib/node"
-export MANPATH="/opt/local/share/main:/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
-export PATH="/usr/local/share/python:/opt/local/bin:/opt/local/sbin:/usr/local/coreutils:$ZSH/bin:$ZSH/bin/private:/usr/local/bin:/usr/local/sbin:storm:$PATH"
+export GOPATH=$HOME/.go
+export MANPATH="/opt/local/share/main:/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+export PATH="/opt/local/bin:/opt/local/sbin:/usr/local/opt/coreutils/libexec/gnubin:$ZSH/bin:$ZSH/bin/private:/usr/local/bin:/usr/local/sbin:storm:/usr/local/Cellar/go/1.2.1/libexec/bin:/usr/local/mysql/bin:$PATH"
 
 # Environment settings
 setopt NO_BG_NICE # don't nice background tasks
@@ -70,3 +71,4 @@ export GROOVY_HOME=/usr/local/opt/groovy/libexec
 
 # Boot2Docker
 export DOCKER_HOST=tcp://$(boot2docker ip 2>/dev/null):2375
+
