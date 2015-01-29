@@ -74,3 +74,6 @@ export DOCKER_HOST=tcp://$(boot2docker ip 2>/dev/null):2375
 
 #env
 export SSL_CERT_FILE=
+
+#Java Version
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8.0_25, x86_64`
