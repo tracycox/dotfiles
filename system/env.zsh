@@ -72,3 +72,5 @@ export GROOVY_HOME=/usr/local/opt/groovy/libexec
 # Boot2Docker
 export DOCKER_HOST=tcp://$(boot2docker ip 2>/dev/null):2375
 
+#env
+export SSL_CERT_FILE=

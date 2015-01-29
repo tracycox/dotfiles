@@ -1,10 +1,10 @@
 [user]
-	name = Phillip Verheyden
-	email = pverheyden@gmail.com
+	name = Casey Doolittle
+	email = cdoolittle@iconfitness.com
 [core]
     autocrlf = input
     editor = vim 
-	excludesfile = /Users/phillipverheyden/.gitignore_global
+	excludesfile = /Users/cdoolittle/.gitignore_global
 [alias]
     co = checkout
     ci = commit
