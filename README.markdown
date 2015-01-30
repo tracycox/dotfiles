@@ -5,6 +5,7 @@ Initially copied from [phillipuniverse](https://github.com/phillipuniverse/dotfi
 ## Usage
 
 Same steps as Holman's:
+- `brew install zsh`
 - `brew install rbenv`
 - `brew install autojump`
 - `brew install coreutils # These are the gnu versions of stuff for coloring`
