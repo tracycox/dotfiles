@@ -1,19 +1,20 @@
-# Phillip's dotfiles
+# Casey's dotfiles
 
-Initially copied from [Zach Holman](http://github.com/holman/dotfiles), but 
-substantially stripped down for my particular tastes. This used to also 
-utilize oh-my-zsh, but I've found that I'd rather manage my entire 
-configuration by myself, so this no longer requires that.
+Initially copied from [phillipuniverse](https://github.com/phillipuniverse/dotfiles)
 
 ## Usage
 
 Same steps as Holman's:
-
-- `git clone git://github.com/phillipuniverse/dotfiles ~/.dotfiles`
+- `brew install rbenv`
+- `brew install autojump`
+- `brew install coreutils # These are the gnu versions of stuff for coloring`
+- `brew install hub # GitHub CLI: https://hub.github.com/`
+- `git clone git://github.com/cdoolittle/dotfiles ~/.dotfiles`
 - `cd ~/.dotfiles`
 - `rake install`
 - `brew install grc` (optional, will add color to a few utilities)
 - `chsh -s /bin/zsh` (make sure this path exists on your machine or you're gonna have a bad time)
+- Modify ~/.dotfiles/git/gitconfig.symlink and put your real information there.
 
 The install rake task will symlink the appropriate files in `.dotfiles` to your
 home directory. Everything is configured and tweaked within `~/.dotfiles`,
@@ -50,3 +51,15 @@ Also, `git/gitconfig.symlink` is set to be ignored as well, and I recommend you 
 Thanks to [Zach Holman](http://github.com/holman/dotfiles). Seriously, go check
 out his repository and theory on dotfiles. I agree with all of it, and would
 never have created this without seeing his first.
+
+## Possible problems
+You might get some problems with curl and certificates, an error like this:
+ `SSL: can't load CA certificate file /usr/local/opt/curl-ca-bundle/share/ca-bundle.crt`
+If you do, run this:
+```
+echo $SSL_CERT_FILE
+# output will likely be SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt which is wrong
+# Run this to fix it
+export SSL_CERT_FILE=
+```
+Then retry the brew install commands. When you’re done setting things up, put the export command inside of `~/.dotfiles/system/env.sh`
