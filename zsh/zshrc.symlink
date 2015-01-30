@@ -60,3 +60,8 @@ bindkey "\e[F" end-of-line
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 eval "$(rbenv init -)"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+alias redis-start=redis-server /usr/local/etc/redis.conf
+
