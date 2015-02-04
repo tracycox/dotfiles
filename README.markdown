@@ -12,10 +12,11 @@ Same steps as Holman's:
 - `brew install hub # GitHub CLI: https://hub.github.com/`
 - `git clone git://github.com/cdoolittle/dotfiles ~/.dotfiles`
 - `cd ~/.dotfiles`
-- `rake install`
+- Modify `~/.dotfiles/git/gitconfig.symlink` and put your real information there.
 - `brew install grc` (optional, will add color to a few utilities)
+- `rake install`
 - `chsh -s /bin/zsh` (make sure this path exists on your machine or you're gonna have a bad time)
-- Modify ~/.dotfiles/git/gitconfig.symlink and put your real information there.
+
 
 The install rake task will symlink the appropriate files in `.dotfiles` to your
 home directory. Everything is configured and tweaked within `~/.dotfiles`,
