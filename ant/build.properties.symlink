@@ -1,0 +1,17 @@
+spring.instrument.path=/Users/cdoolittle/commerce/lib/spring-instrument-4.1.2.RELEASE.jar
+maven.home=/usr/local/Cellar/maven/3.2.3/libexec
+
+# Absolute path to the JRebel dylib, this assumes that you have Jrebel 6+ (6.0.2 is the latest)
+# The plugin name is probably different than what you have if you have the latest but it should start with
+# org.zeroturnaround
+# Alternatively, you can download the JRebel zip distribution https://zeroturnaround.com/software/jrebel/download/prev-releases/
+# and not worry about pointing it to the Eclipse plugin path
+jrebel.path=/Users/cdoolittle/jrebel/lib/libjrebel64.dylib
+
+runtime.environment=development
+
+# Fill in with your real database properties
+database.user=root
+database.password=broadleaf
+database.driver=com.mysql.jdbc.Driver
+database.url=jdbc:mysql://localhost:3306/broadleaf?useUnicode=true&amp;characterEncoding=utf8
