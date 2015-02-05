@@ -7,7 +7,7 @@ export HISTFILE=~/.zsh_history
 export HISTSIZE=1000000
 export SAVEHIST=1000000
 #export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
-usejava7
+usejava8
 export MVN_HOME=/usr/lib/apache-maven-3.0.2
 export MULE_HOME=/usr/lib/mule-standalone-3.1.2
 export GRAILS_HOME=/usr/lib/grails-2.0.0
