@@ -54,3 +54,12 @@ alias log='tail -f logs/catalina.out'
 alias usejava6='export JAVA_HOME=$(/usr/libexec/java_home -v 1.6)'
 alias usejava7='export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)'
 alias usejava8='export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)'
+
+#dev aliases
+alias prddb2='ssh root@prddb2'
+alias refresh='source ~/.zshrc'
+alias redis='redis-server /usr/local/etc/redis.conf'
+alias mysql='mysql.server start'
+alias solr='solr.sh'
+alias site-start='site-start.sh'
+alias admin-start='start-admin.sh'
