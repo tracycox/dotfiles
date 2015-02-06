@@ -62,4 +62,5 @@ alias redis='redis-server /usr/local/etc/redis.conf'
 alias mysql='mysql.server start'
 alias solr='solr.sh'
 alias site-start='site-start.sh'
-alias admin-start='start-admin.sh'
+alias admin-start='admin-start.sh'
+
