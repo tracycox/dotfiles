@@ -63,4 +63,4 @@ alias mysql='mysql.server start'
 alias solr='solr.sh'
 alias site-start='site-start.sh'
 alias admin-start='admin-start.sh'
-
+alias reset-dock='defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock'
