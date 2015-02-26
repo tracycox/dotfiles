@@ -1,5 +1,5 @@
 #To Do
-[ ] review system update
+[] review system update
 [ ] web service conversion to rest
    [ ] tax in broadleaf
 [ ] iFit Token conversion
