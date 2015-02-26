@@ -23,7 +23,7 @@ alias psa='ps -A'
 alias o='open -a "Path Finder.app" .'
 
 # atea (https://github.com/pkamenarsky/atea)
-alias t='vim /Users/Andre/Dropbox/Random/tasks.txt'
+alias t='vim /Users/cdoolittle/.dotfiles/docs/tasks.md'
 
 # copies public ssh key to clipboard
 alias pubkey="more ~/.ssh/id_dsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
@@ -57,7 +57,7 @@ alias usejava8='export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)'
 
 #dev aliases
 alias prddb2='ssh root@prddb2'
-alias refresh='source ~/.zshrc'
+alias refresh='s ource ~/.zshrc'
 alias redis='redis-server /usr/local/etc/redis.conf'
 alias mysql='mysql.server start'
 alias solr='solr.sh'
