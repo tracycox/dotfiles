@@ -1,6 +1,6 @@
 #To Do
 
-- [ ] Fix the problem with features and specs so they are orderable
+- [x] Fix the problem with features and specs so they are orderable
 - [ ] review system update
 - [ ] web service conversion to rest
     - [ ] tax in broadleaf
