@@ -23,7 +23,7 @@ alias psa='ps -A'
 alias o='open -a "Path Finder.app" .'
 
 # atea (https://github.com/pkamenarsky/atea)
-alias t='vim /Users/cdoolittle/.dotfiles/docs/tasks.md'
+alias t='vim ~/.dotfiles/docs/tasks.md'
 
 # copies public ssh key to clipboard
 alias pubkey="more ~/.ssh/id_dsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
