@@ -2,6 +2,9 @@
 
 - [x] Fix the problem with features and specs so they are orderable
 - [ ] review system update
+    - [ ] review engine sends emails
+    - [ ] reviews approved through engine
+    - [ ] production reviews and dev reviews
 - [ ] pictures for timeclock
 - [ ] web service conversion to rest
     - [ ] tax in broadleaf
