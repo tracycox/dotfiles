@@ -22,7 +22,7 @@ alias psa='ps -A'
 # open current window in path finder
 alias o='open -a "Path Finder.app" .'
 
-# atea (https://github.com/pkamenarsky/atea)
+# task list saved in git
 alias t='vim ~/.dotfiles/docs/tasks.md'
 
 # copies public ssh key to clipboard
@@ -66,4 +66,5 @@ alias admin-start='admin-start.sh'
 alias reset-dock='defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock'
 alias assume='git update-index --assume-unchanged'
 alias unassume='git update-index --no-assume-unchanged'
+#update for your .dotfiles
 alias update-task='git --git-dir=/Users/cdoolittle/.dotfiles/.git --work-tree=/Users/cdoolittle/.dotfiles commit -a -m "Update task list"'
