@@ -2,6 +2,7 @@
 
 - [x] Fix the problem with features and specs so they are orderable
 - [ ] review system update
+- [ ] pictures for timeclock
 - [ ] web service conversion to rest
     - [ ] tax in broadleaf
 - [ ] iFit Token conversion
