@@ -67,4 +67,4 @@ alias reset-dock='defaults write com.apple.dock ResetLaunchPad -bool true; killa
 alias assume='git update-index --assume-unchanged'
 alias unassume='git update-index --no-assume-unchanged'
 #update for your .dotfiles
-alias update-task='git --git-dir=/Users/cdoolittle/.dotfiles/.git --work-tree=/Users/cdoolittle/.dotfiles commit -a -m "Update task list"'
+alias upt='git --git-dir=/Users/cdoolittle/.dotfiles/.git --work-tree=/Users/cdoolittle/.dotfiles commit -a -m "Update task list"'
