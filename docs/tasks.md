@@ -5,8 +5,11 @@
     - [ ] review engine sends emails
     - [ ] reviews approved through engine
     - [ ] production reviews and dev reviews
-    - [ ] update query for dev reviews: 
-    ```
+    - [ ] need to add site to the create review data
+    - [ ] for dev sites send parameter dev=Y
+   
+   - [ ] update query for dev reviews: 
+```
         db.reviews.update({storeId: {$in: ["18652","19552","10051","18501","19902","18101","18401","17551","18852","16251","18251","19852","13201"]}}, {$set: {dev: 'Y'}}, false, true)
     ```
 - [ ] pictures for timeclock
