@@ -1,6 +1,5 @@
 #To Do
 
-- [x] Fix the problem with features and specs so they are orderable
 - [ ] review system update
     - [ ] review engine sends emails
     - [ ] reviews approved through engine
