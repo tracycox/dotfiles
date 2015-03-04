@@ -10,7 +10,7 @@
    - [ ] update query for dev reviews: 
 ```
         db.reviews.update({storeId: {$in: ["18652","19552","10051","18501","19902","18101","18401","17551","18852","16251","18251","19852","13201"]}}, {$set: {dev: 'Y'}}, false, true)
-    ```
+```
 - [ ] pictures for timeclock
 - [ ] web service conversion to rest
     - [ ] tax in broadleaf
