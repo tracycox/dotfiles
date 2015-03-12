@@ -24,4 +24,4 @@
 - [ ] address save needs work
 - [ ] customer exstension
 - [ ] update customer exstension probably want site specific
-- 
+- [ ] change the image handling to have an imagedir
