@@ -20,3 +20,8 @@
     ```
     db.iFitTokens.find({cybersource: '', response: {$nin: ["203", "231", "202", "200", "208", "205"]}})
     ```
+- [ ] address validation
+- [ ] address save needs work
+- [ ] customer exstension
+- [ ] update customer exstension probably want site specific
+- 
