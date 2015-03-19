@@ -73,3 +73,4 @@ alias hu='sudo vim /private/etc/hosts'
 # copy file content
 alias copy='pbcopy'
 alias paste='pbpaste'
+alias jenkins='ssh root@jenkins01'
