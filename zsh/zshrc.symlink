@@ -64,6 +64,3 @@ eval "$(rbenv init -)"
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
-
-# added by travis gem
-[ -f /Users/cdoolittle/.travis/travis.sh ] && source /Users/cdoolittle/.travis/travis.sh
