@@ -12,8 +12,8 @@
 ```
 - [ ] XOHEADER type DB record
     - [ ] record the ip address of the server
-- [ ] XML File drop for order
-
+- [x] XML File drop for order
+    - [ ] XML File needs CC parts that are not yet available.
 - [ ] pictures for timeclock
 - [ ] web service conversion to rest
     - [ ] tax in broadleaf
@@ -21,6 +21,7 @@
 - [ ] address save needs work
 - [ ] customer exstension
 - [ ] update customer exstension probably want site specific
-- [ ] change the image handling to have an imagedir
+- [x] change the image handling to have an imagedir
 
 - [ ] shop.ifit needs to have reversal set up when order is declined
+- [ ] slack message needs to say environment
