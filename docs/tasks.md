@@ -15,8 +15,8 @@
 - [x] XML File drop for order
     - [ ] XML File needs CC parts that are not yet available.
 - [ ] pictures for timeclock
-- [ ] web service conversion to rest
-    - [ ] tax in broadleaf
+- [x] web service conversion to rest
+    - [x] tax in broadleaf
 - [ ] address validation
 - [ ] address save needs work
 - [ ] customer exstension
