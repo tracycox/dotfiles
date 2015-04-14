@@ -1,11 +1,12 @@
 #To Do
 
 - [ ] review system update
-    - [ ] review engine sends emails
+    - [x] review engine sends emails
+    - [ ] fix the admin email and build interface for it.
     - [ ] reviews approved through engine
-    - [ ] production reviews and dev reviews
-    - [ ] need to add site to the create review data
-    - [ ] for dev sites send parameter dev=Y
+    - [x] production reviews and dev reviews
+    - [x] need to add site to the create review data
+    - [x] for dev sites send parameter dev=Y
     - [ ] update query for dev reviews: 
 ```
         db.reviews.update({storeId: {$in: ["18652","19552","10051","18501","19902","18101","18401","17551","18852","16251","18251","19852","13201"]}}, {$set: {dev: 'Y'}}, false, true)
@@ -24,4 +25,4 @@
 - [x] change the image handling to have an imagedir
 
 - [ ] shop.ifit needs to have reversal set up when order is declined
-- [ ] slack message needs to say environment
+- [x] slack message needs to say environment
