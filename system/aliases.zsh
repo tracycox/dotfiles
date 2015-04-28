@@ -68,9 +68,11 @@ alias assume='git update-index --assume-unchanged'
 alias unassume='git update-index --no-assume-unchanged'
 #update for your .dotfiles
 alias upt='git --git-dir=/Users/cdoolittle/.dotfiles/.git --work-tree=/Users/cdoolittle/.dotfiles commit -a -m "Update task list"'
-#host update-hu
-alias hu='sudo vim /private/etc/hosts'
 # copy file content
 alias copy='pbcopy'
 alias paste='pbpaste'
 alias jenkins='ssh root@jenkins01'
+alias sublime='sudo /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
+#host update-hu
+alias hu='sudo /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /private/etc/hosts'
+alias edit='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
