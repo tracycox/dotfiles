@@ -72,7 +72,9 @@ alias upt='git --git-dir=/Users/cdoolittle/.dotfiles/.git --work-tree=/Users/cdo
 alias copy='pbcopy'
 alias paste='pbpaste'
 alias jenkins='ssh root@jenkins01'
-alias sublime='sudo /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
+alias prdblc21='ssh root@prdblc21'
+alias prdblc22='ssh root@prdblc22'
+alias sublime='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
 #host update-hu
-alias hu='sudo /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /private/etc/hosts'
+alias hu='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /private/etc/hosts'
 alias edit='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
