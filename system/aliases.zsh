@@ -78,3 +78,7 @@ alias sublime='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/sub
 #host update-hu
 alias hu='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /private/etc/hosts'
 alias edit='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
+#s3 Management
+alias s3qaprod='aws s3 sync s3://iconblcstage s3://iconblcproduction'
+alias s3prodqa='aws s3 sync s3://iconblcproduction s3://iconblcstage'
+alias s3qadev='aws s3 s3://iconblcstage s3://iconblcdev'
