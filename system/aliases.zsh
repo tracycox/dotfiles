@@ -81,4 +81,5 @@ alias edit='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
 #s3 Management
 alias s3qaprod='aws s3 sync s3://iconblcstage s3://iconblcproduction'
 alias s3prodqa='aws s3 sync s3://iconblcproduction s3://iconblcstage'
-alias s3qadev='aws s3 s3://iconblcstage s3://iconblcdev'
+alias s3qadev='aws s3 sync s3://iconblcstage s3://iconblcdev'
+alias devblc01='ssh root@devblc01'
