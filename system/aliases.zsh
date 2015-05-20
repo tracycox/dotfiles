@@ -23,7 +23,8 @@ alias psa='ps -A'
 alias o='open -a "Path Finder.app" .'
 
 # task list saved in git
-alias t='vim ~/.dotfiles/docs/tasks.md'
+alias t='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl ~/.dotfiles/docs/tasks.md'
+alias tu='git --git-dir=/Users/cdoolittle/.dotfiles/.git/ --work-tree=/Users/cdoolittle/.dotfiles commit -a -m "ToDo update"'
 
 # copies public ssh key to clipboard
 alias pubkey="more ~/.ssh/id_dsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
@@ -71,7 +72,6 @@ alias upt='git --git-dir=/Users/cdoolittle/.dotfiles/.git --work-tree=/Users/cdo
 # copy file content
 alias copy='pbcopy'
 alias paste='pbpaste'
-alias jenkins='ssh root@jenkins01'
 alias bamboo='ssh root@bamboo.iconfitness.com'
 alias prdblc21='ssh root@prdblc21'
 alias prdblc22='ssh root@prdblc22'
