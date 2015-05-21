@@ -6,7 +6,7 @@
 - [ ] XML allow $0 carts
 - [ ] Fix forward for the admin preview
 - [x] Reviews approve is broken
-- [x] Fix auto update git
+- [ ] Fix auto update git
 
 ## Shop iFit
 - [ ] shop.ifit needs to have reversal set up when order is declined
