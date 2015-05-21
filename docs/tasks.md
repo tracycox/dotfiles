@@ -4,7 +4,7 @@
 - [ ] Google Data Feed BLC
 - [ ] Affiliate links
 - [ ] XML allow $0 carts
-- [ ] Fix forward for the admin preview
+- [x] Fix forward for the admin preview
 - [x] Reviews approve is broken
 - [x] Fix auto update git
 
