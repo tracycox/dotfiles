@@ -23,8 +23,8 @@ alias psa='ps -A'
 alias o='open -a "Path Finder.app" .'
 
 # task list saved in git
-alias t='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl ~/.dotfiles/docs/tasks.md'
-alias tu='git --git-dir=/Users/cdoolittle/.dotfiles/.git/ --work-tree=/Users/cdoolittle/.dotfiles commit -a -m "ToDo update"'
+alias t='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl ~/.dotfiles/docs/tasks.md'
+alias tu='git --git-dir=/Users/tracycox/.dotfiles/.git/ --work-tree=/Users/tracycox/.dotfiles commit -a -m "ToDo update"'
 
 # copies public ssh key to clipboard
 alias pubkey="more ~/.ssh/id_dsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
@@ -68,17 +68,17 @@ alias reset-dock='defaults write com.apple.dock ResetLaunchPad -bool true; killa
 alias assume='git update-index --assume-unchanged'
 alias unassume='git update-index --no-assume-unchanged'
 #update for your .dotfiles
-alias upt='git --git-dir=/Users/cdoolittle/.dotfiles/.git --work-tree=/Users/cdoolittle/.dotfiles commit -a -m "Update task list"'
+alias upt='git --git-dir=/Users/tracycox/.dotfiles/.git --work-tree=/Users/tracycox/.dotfiles commit -a -m "Update task list"'
 # copy file content
 alias copy='pbcopy'
 alias paste='pbpaste'
 alias bamboo='ssh root@bamboo.iconfitness.com'
 alias prdblc21='ssh root@prdblc21'
 alias prdblc22='ssh root@prdblc22'
-alias sublime='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
+alias sublime='/Applications/Sublime\ Text\ 3.app/Contents/SharedSupport/bin/subl'
 #host update-hu
-alias hu='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /private/etc/hosts'
-alias edit='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
+alias hu='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /private/etc/hosts'
+alias edit='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 #s3 Management
 alias s3qaprod='aws s3 sync s3://iconblcstage s3://iconblcproduction'
 alias s3prodqa='aws s3 sync s3://iconblcproduction s3://iconblcstage'
