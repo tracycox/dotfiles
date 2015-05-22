@@ -1,13 +1,12 @@
 # To Do
 ## BLC
-- [ ] inventory update BLC
-- [ ] Google Data Feed BLC
-- [ ] Affiliate links
-- [ ] XML allow $0 carts
-- [x] Fix forward for the admin preview
-- [x] Reviews approve is broken
-- [x] Fix auto update git
+- [ ] AMEX IDs
+- [ ] Pametric AMEX preocessing
+- [ ] DB2 Fix Pack 10 installed on prddb202 and prdhadr1
+- [ ] NewRelic Agrement
+- [x] TBD
+- [x] WAS FixPack 37 installed
 
 ## Shop iFit
-- [ ] shop.ifit needs to have reversal set up when order is declined
+- [ ] TBD
 
