@@ -58,7 +58,7 @@ alias usejava8='export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)'
 
 #dev aliases
 alias prddb2='ssh root@prddb2'
-alias refresh='s ource ~/.zshrc'
+alias refresh='source ~/.zshrc'
 alias redis='redis-server /usr/local/etc/redis.conf'
 alias mysql='mysql.server start'
 alias solr='solr.sh'
