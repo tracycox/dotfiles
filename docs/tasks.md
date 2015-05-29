@@ -9,6 +9,7 @@
 - [x] WAS FixPack 37 installed
 - [ ] Yottaa persistence issue
 - [ ] New BML merchant ID for PRMS
+- [ ] Review Limelight agreements
 
 ## Shop iFit
 - [ ] TBD
