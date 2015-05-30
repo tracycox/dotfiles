@@ -1,6 +1,7 @@
 # To Do
 ## BLC
 - [ ] AMEX IDs
+- [ ] Update F5 with current *.iconfitness but with a full bundle to see if it helps
 - [ ] Pametric AMEX preocessing
 - [ ] DB2 Fix Pack 10 installed on prddb202 and prdhadr1
 - [ ] NewRelic Agrement
